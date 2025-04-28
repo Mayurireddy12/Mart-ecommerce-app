@@ -1,0 +1,155 @@
+.product {
+    text-align: center;
+    align-content: center;
+    border: 2px solid ghostwhite;
+    background-image: url(../assets/backimg.jpeg);
+    height: 100px;
+    margin-top: 88px;
+}
+.dropbtn {
+    background-color: #174f8f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.dropdown-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-list a:hover {
+    background-color: rgb(101, 101, 242);
+    color: white;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #001f3f;
+}
+
+.search-bar {
+    position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: 224px;
+}
+
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 12px 45px 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #f1f1f1;
+    font-size: 16px;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+}
+
+.best-sales-section {
+   
+    padding-top: 85px;
+    padding-left: 10px;
+}
+
+.best-sales {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 83px;
+    padding-right: 100px;
+    row-gap: 10px;
+
+}
+
+
+.dis-like {
+    display: flex;
+    gap: 120px;
+    padding-left: 189px;
+    padding-top: 10px;
+}
+
+.sales img:nth-child(2) {
+    height: 162px;
+    width: 222px;
+}
+
+.rating {
+    height: 50px;
+    width: 100px;
+}
+
+.sales h4 {
+    margin: 0px;
+}
+
+.sales {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.badge {
+    padding: 6px;
+    border: 2px solid rgb(17, 17, 65);
+    border-radius: 50px;
+    background-color: #03254c;
+    color: white;
+}
+
+.cost-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.plus h2 {
+    margin: 0px;
+}
+
+.plus:hover {
+    background-color: rgb(64, 64, 149);
+    color: white;
+}

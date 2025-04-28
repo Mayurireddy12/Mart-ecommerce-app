@@ -1,0 +1,56 @@
+
+.cart-items{
+    display: flex;
+    border: 2px solid whitesmoke;
+    width: 700px;
+    /* background-color: whitesmoke; */
+    justify-content: space-around;
+    height: 150px;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+.sofa-item img{
+    height: 150px;
+}
+.stone-beam{
+    display: flex;
+    gap: 170px;
+}
+.heading i{
+    margin-top: 25px;
+}
+.heading i:hover{
+    color:blue;
+}
+.amount{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:20px;
+}
+.cost{
+    display: flex;
+    gap:10px;
+    
+}
+.cartPage{
+    display: flex;
+    /* grid-template-columns: repeat(3,1fr); */
+    
+   
+}
+
+.cartSummary{
+    border: 2px solid whitesmoke;
+    width: 300px;
+    margin-left: 100px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+.cartPage{
+    margin-top: 110px;
+}
+button:hover{
+    background-color: rgb(85, 85, 226);
+    color: white;
+}

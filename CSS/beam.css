@@ -1,0 +1,202 @@
+.head-beam{
+    text-align: center;
+    border: 2px solid whitesmoke;
+    background-image: url(../assets/baimg.jpeg);
+    margin-top:88px;
+}
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:222px;
+
+}
+
+.product-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-details {
+    max-width: 400px;
+}
+
+.product-details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    font-size: 20px;
+    color: #f5a623;
+    margin-bottom: 10px;
+}
+.prod-rating{
+    height: 15px;
+    width: 50px;
+}
+
+.rating-number {
+     color:black;
+    font-size: 14px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.price-category {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.price {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.category {
+    color: gray;
+}
+
+.product-details p {
+    margin: 20px 0;
+    color: #555;
+}
+
+.quantity-add {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-add input {
+    width: 60px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.add-to-cart {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.quantity-add button:hover {
+    background-color: #0055aa;
+}
+
+.description{
+    display: flex;
+    gap:20px;
+}
+   
+.review{
+    padding-top:23px;
+}
+
+.best-sales {
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 83px;
+    padding-right: 100px;
+    row-gap: 10px;
+    
+}
+
+
+.dis-like {
+    display: flex;
+    gap: 120px;
+    padding-left: 189px;
+    padding-top: 10px;
+}
+.sales img:nth-child(2) {
+    height: 162px;
+    width: 222px;
+}
+
+.rating {
+    height: 50px;
+    width: 100px;
+}
+
+.sales h4 {
+    margin: 0px;
+}
+
+.sales {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.badge {
+    padding: 6px;
+    border: 2px solid rgb(17, 17, 65);
+    border-radius: 50px;
+    background-color: #03254c;
+    color: white;
+}
+
+.cost-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.plus h2 {
+    margin: 0px;
+}
+
+.plus:hover {
+    background-color: rgb(64, 64, 149);
+    color: white;
+} 
+
+.dis-like {
+    display: flex;
+    gap: 120px;
+    padding-left: 189px;
+    padding-top: 10px;
+}
+.you-also-like img:nth-child(2) {
+    height: 162px;
+    width: 222px;
+}
+
+.rating {
+    height: 50px;
+    width: 100px;
+}
+
+/* .sales h4 {
+    margin: 0px;
+} */
+
+.you-also-like {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
